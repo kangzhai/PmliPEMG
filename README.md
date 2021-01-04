@@ -1,2 +1,2 @@
-# PmliPEM
-Ensemble deep learning based on multi-level information enhancement for predicting plant miRNA-lncRNA interaction
+# EDLMG
+Ensemble deep learning based on multi-level information enhancement and greedy fuzzy decision
