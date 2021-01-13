@@ -23,7 +23,7 @@ Explanation:
 
 It can predict the unlabeled miRNA-lncRNA pairs by loading the trained base models. The paths of input and output can be adjusted in "Path.py". Please refer to the input format of the "Example" folder. The output is the predicted miRNA-lncRNA interaction, and we will add more predicted information in future versions. We provide 10 groups of base models for prediction.
 
-### PmliPEMG(Cross Validation).py
+### PmliPEMG (Cross Validation).py
 Command: python PmliPEMG(Cross Validation).py
 
 Explanation:
