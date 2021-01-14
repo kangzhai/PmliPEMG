@@ -14,7 +14,29 @@ Python 3.6.5
 Kreas 2.2.4
 
 # Detail
+### BaseModel folder
+10 groups of trained base models mentioned in the paper.
 
+### Example
+The examples of input and the training-validation set mentioned in the paper.
+
+### Path.py
+Paths of input and output.
+
+### DataProcessing.py
+Function of data processing.
+
+### PredictionProcessing.py
+Function of prediction process.
+
+### SeqSelfAttention.py
+Code of attention mechanism.
+
+### PmliPEMG (cross Validation).py
+Source code of cross validation in the paper.
+
+### PmliPEMG.py
+Code for predicting whether there has been interaction in unlabeled miRNA-lncRNA pairs.
 
 # Usage
 Open the console or powershell in the local folder and copy the following commands to run PmliPEMG. It is also feasible to run the codes using python IDE (such as pyCharm).
@@ -34,7 +56,7 @@ Explanation:
 It is the source code of cross validation mentioned in the paper, which can help the users repeat our experiment. It also shows the source code of the base model. Since the original data set was too large to upload, we compressed it as a ".zip" file. Before executing this code, the users need to unzip the "TrainingValidaitonSet.zip" in the "Example" folder to the current directory. This will be a relatively long process due to the need to retrain the base models. In addition to repeating the experiment, we hope that the code provides a valuable reference for users' research.
 
 ### Install-ViennaRNA-2.4.10_64bit.exe
-When use "PmliPEMG.py" to predict unlabeled samples, the input must be the correct format. The input format can be referred to "miRNA" and "lncRNA" in "Example" folder. This format can be obtained directly by using RNAfold (a RNA secondary structure extraction tool) in ViennaRNA package. Install-ViennaRNA-2.4.10_64bit.exe is the installation of ViennaRNA package that contains RNAfold. The latest version of ViennaRNA package can be also downloaded from https://www.tbi.univie.ac.at/RNA/. 
+When using "PmliPEMG.py" to the predict unlabeled samples, the input must be the correct format. The input format can be referred to "miRNA" and "lncRNA" in "Example" folder. This format can be obtained directly by using RNAfold (a RNA secondary structure extraction tool) in ViennaRNA package. Install-ViennaRNA-2.4.10_64bit.exe is the installation of ViennaRNA package that contains RNAfold. The latest version of ViennaRNA package can be also downloaded from https://www.tbi.univie.ac.at/RNA/. 
 
 # Reference
 The paper has been submitted. Please waiting for updating.
