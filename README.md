@@ -31,7 +31,7 @@ Command: python PmliPEMG(Cross Validation).py
 
 Explanation:
 
-这是论文中交叉验证的实验代码，供读者还原我们的实验，同时也是本研究基模型构建的源代码。执行该代码之前需要解压example文件夹下的TrainingValidaitonSet.zip文件至当前目录。由于需要重新训练模型，这会是一个比较长的过程。相比重复实验，我们提供这个代码更希望能为读者的研究带来参考。
+It is the source code of cross validation mentioned in the paper, which can help the users repeat our experiment. It also shows the source code of the base model. Since the original data set was too large to upload, we compressed it as a ".zip" file. Before executing this code, the users need to unzip the "TrainingValidaitonSet.zip" in the "Example" folder to the current directory. This will be a relatively long process due to the need to retrain the base model. Compared with repeated the experiment, we hope that the code can provide a reference for users' research.
 
 ### Install-ViennaRNA-2.4.10_64bit.exe
 When use "PmliPEMG.py" to predict unlabeled samples, the input must be the correct format. The input format can be referred to "miR399-lnc1077" or "miR482b-TCONS_00023468", where the sequence is composed of the sequences of miRNA and lncRNA and the feature are combined by the features of miRNA and lncRNA. Here k-mer frequency and GC content are extracted by Python scripts, and number of base pairs and minimum free energy are extracted by Python scripts and RNAfold in ViennaRNA package. Install-ViennaRNA-2.4.10_64bit.exe is the installation of ViennaRNA package that contains RNAfold (a RNA secondary structure extraction tool). ViennaRNA package can be also downloaded from https://www.tbi.univie.ac.at/RNA/.
