@@ -30,7 +30,7 @@ Function of data processing.
 Function of prediction process.
 
 ### SeqSelfAttention.py
-Code of attention mechanism.
+Code of attention mechanism proposed by W. Shi.
 
 ### PmliPEMG (cross Validation).py
 Source code of cross validation in the paper.
