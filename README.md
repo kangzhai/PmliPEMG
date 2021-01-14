@@ -13,6 +13,9 @@ Python 3.6.5
 
 Kreas 2.2.4
 
+# Detail
+
+
 # Usage
 Open the console or powershell in the local folder and copy the following commands to run PmliPEMG. It is also feasible to run the codes using python IDE (such as pyCharm).
 
@@ -21,7 +24,7 @@ Command: python PmliPEMG.py
 
 Explanation:
 
-It can predict whether there has been interaction in the unlabeled miRNA-lncRNA pairs. It can quickly predict large-scale interactions by  loading and integrating the trained base models. The users can adjust the path of input and output in "Path.py" to realize the prediction of local data. The file format of input must be consistent with that in the "Example" folder. The output is the predicted results, which lists miRNA name, lncRNA name and interaction/non-interaction. We will add more predicted information in future versions. We provide 10 groups of base models for prediction.
+It can predict whether there has been interaction in the unlabeled miRNA-lncRNA pairs. It can quickly predict large-scale interactions by  loading and integrating the trained base models. The users can adjust the path of input and output in "Path.py" to realize the prediction of local data. The input format must be consistent with that in the "Example" folder. The output is the predicted results, which lists miRNA name, lncRNA name and interaction/non-interaction. We will add more predicted information in future versions. To show the authenticity of the codes, we provide all 10 groups of base models mentioned in the paper. By default, 10 groups of base models independently predict the unlabeled samples and output the results. Due to the differences between the base models, the 10 groups of results will also vary. Users can comprehensively refer to these results, or manually adjust to use a group of base models for prediction. We will also integrate these results in future versions.
 
 ### PmliPEMG (Cross Validation).py
 Command: python PmliPEMG(Cross Validation).py
