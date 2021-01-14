@@ -14,36 +14,28 @@ Python 3.6.5
 Kreas 2.2.4
 
 # Detail
-BaseModel folder:
-
+### BaseModel folder
 10 groups of trained base models mentioned in the paper.
 
-Example folder:
-
+### Example folder
 The examples of input and the training-validation set mentioned in the paper.
 
-Path.py:
-
+### Path.py
 Paths of input and output.
 
-DataProcessing.py:
-
+### DataProcessing.py
 Function of data processing.
 
-PredictionProcessing.py:
-
+### PredictionProcessing.py
 Function of prediction process.
 
-SeqSelfAttention.py:
-
+### SeqSelfAttention.py
 Code of attention mechanism proposed by W. Shi.
 
-PmliPEMG (cross Validation).py:
-
+### PmliPEMG (cross Validation).py
 Source code of cross validation in the paper.
 
-PmliPEMG.py:
-
+### PmliPEMG.py
 Code for predicting whether there has been interaction in unlabeled miRNA-lncRNA pairs.
 
 # Usage
