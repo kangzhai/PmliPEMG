@@ -1,5 +1,5 @@
 # PmliPEMG
-The related data and scoure codes of PmliPEMG are privided by Q. Kang.
+The related data and scoure codes of PmliPEMG are provided by Q. Kang.
 
 The latest version is updated on January 13, 2021.
 
@@ -30,7 +30,7 @@ Function of data processing.
 Function of prediction process.
 
 ### SeqSelfAttention.py
-Code of attention mechanism proposed by W. Shi.
+Code of attention mechanism provided by W. Shi.
 
 ### PmliPEMG (cross Validation).py
 Source code of cross validation in the paper.
