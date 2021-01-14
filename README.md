@@ -13,7 +13,7 @@ Python 3.6.5
 
 Kreas 2.2.4
 
-# Detail
+# Details
 ### BaseModel folder
 10 groups of trained base models mentioned in the paper.
 
