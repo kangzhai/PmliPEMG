@@ -1,7 +1,7 @@
 # PmliPEMG
 The related data and scoure codes of PmliPEMG are provided by Q. Kang.
 
-The latest version is updated on January 13, 2021.
+The latest version is updated on May 25, 2021.
 
 # Introduction
 PmliPEMG is a predictor for plant miRNA-lncRNA interaction. We enhance the information at multiple levels and build an ensemble deep learning model based on greedy fuzzy decision. PmliPEMG can be applied to the cross-species prediction and and shows better performance and stronger generalization ability than state-of-the-art predictors. It may also provide valuable references for related research.
