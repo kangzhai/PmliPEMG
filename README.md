@@ -59,4 +59,6 @@ It is the source code of cross validation mentioned in the paper, which can help
 When using "PmliPEMG.py" to the predict unlabeled samples, the input must be the correct format. The input format can be referred to "miRNA" and "lncRNA" in "Example" folder. This format can be obtained directly by using RNAfold (a RNA secondary structure extraction tool) in ViennaRNA package. Install-ViennaRNA-2.4.10_64bit.exe is the installation of ViennaRNA package that contains RNAfold. The latest version of ViennaRNA package can be also downloaded from https://www.tbi.univie.ac.at/RNA/. 
 
 # Reference
-The paper has been submitted. Please waiting for updating.
+If you use the codes, please cite the reference as below.
+
+Qiang Kang, Jun Meng, Wenhao Shi, Yushi Luan. Ensemble deep learning based on multi-level information enhancement and greedy fuzzy decision for plant miRNA-lncRNA interaction prediction. Interdisciplinary Sciences: Computational Life Sciences. https://doi.org/10.1007/s12539-021-00434-7
