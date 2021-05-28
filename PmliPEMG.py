@@ -10,14 +10,18 @@ from PredictionProcessing import LoadModel, GreedyFuzzyDecision, AddLabel
 PathmiRNA, PathlncRNA = PathInput()
 ListmiRNA = open(PathmiRNA, 'r').readlines()
 ListlncRNA = open(PathlncRNA, 'r').readlines()
+print('Data Loading Complete')
 # Construct miRNA-lncRNA pair
 ListPair = PairConstruction(ListmiRNA, ListlncRNA)
+print('Pair Construction Complete')
 # Extract features and construct complex feature
 ListFusionComplexFeature = FusionComplexFeature(ListPair)
+print('Feature Extraction and Fusion Complete')
 # Convert complex feature vector to matrix
 X_test2 = ConvertToMatrix(ListFusionComplexFeature, 2)
 X_test3 = ConvertToMatrix(ListFusionComplexFeature, 3)
 X_test4 = ConvertToMatrix(ListFusionComplexFeature, 4)
+print('Matrix Conversion Complete')
 # Prediction and ensemble
 scale = ['2-5930', '3-3954', '4-2965']
 Output = []
