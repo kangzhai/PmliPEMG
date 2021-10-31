@@ -61,4 +61,4 @@ When using "PmliPEMG.py" to the predict unlabeled samples, the input must be the
 # Reference
 If you use the codes, please cite the reference as below.
 
-Qiang Kang, Jun Meng, Wenhao Shi, Yushi Luan. Ensemble deep learning based on multi-level information enhancement and greedy fuzzy decision for plant miRNA-lncRNA interaction prediction. Interdisciplinary Sciences: Computational Life Sciences. https://doi.org/10.1007/s12539-021-00434-7
+Qiang Kang, Jun Meng, Wenhao Shi, Yushi Luan. Ensemble deep learning based on multi-level information enhancement and greedy fuzzy decision for plant miRNA-lncRNA interaction prediction. Interdisciplinary Sciences: Computational Life Sciences, 2021, 13:603–614. https://doi.org/10.1007/s12539-021-00434-7
